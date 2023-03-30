@@ -1,5 +1,6 @@
 #!/bin/bash
 sudo apt update
+#sudo apt upgrade -y
 sudo apt install apache2 unzip -y
 sudo ufw allow 'Apache'
 sudo ufw disable
