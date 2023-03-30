@@ -2,7 +2,7 @@ sudo apt update
 sudo apt install apache2 unzip -y
 sudo ufw allow 'Apache'
 sudo ufw disable
-sudo ufw enable  ????
+sudo ufw --force enable
 sudo rm -R /var/www/html/*
 cd /tmp/
 git clone https://github.com/denilsonbonatti/linux-site-dio.git
